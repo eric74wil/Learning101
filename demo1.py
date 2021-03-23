@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-face_cascade = cv2.CascadeClassifier('/Users/Xavier/Documents/GitHub/My_Learning_101/face_detector/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('full path of data source file')
 cap = cv2.VideoCapture(0)
 scaling_factor = 0.5
 
